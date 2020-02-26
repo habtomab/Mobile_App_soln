@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.8"
+        android:background="#FBEDED"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/imgBtnFoodType"
+            android:layout_width="477dp"
+            android:layout_height="236dp"
+            android:layout_gravity="center"
+            android:background="#FBEDED"
+            app:srcCompat="@drawable/dd_logo"
+            tools:layout_editor_absoluteX="188dp"
+            tools:layout_editor_absoluteY="201dp" />
+
+        <TextView
+            android:id="@+id/txtYourChoice"
+            android:layout_width="136dp"
+            android:layout_height="44dp"
+            android:layout_gravity="center"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#FBEDED"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etAddNewFood"
+            android:layout_width="202dp"
+            android:layout_height="52dp"
+            android:layout_gravity="center"
+            android:hint="Add New Food"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/btnAddFood"
+            android:layout_width="204dp"
+            android:layout_height="51dp"
+            android:layout_gravity="center"
+            android:background="#628F94"
+            android:onClick="addNewFood"
+            android:text="Add Food"
+            tools:ignore="OnClick" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnDecide"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:background="#628F94"
+        android:onClick="randomDecision"
+        android:text="Decide!"
+        tools:ignore="OnClick" />
+
+
+
+
+
+</LinearLayout>
