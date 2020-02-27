@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DinnerDecider.iml" filepath="$PROJECT_DIR$/DinnerDecider.iml" group="DinnerDecider" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="DinnerDecider/app" />
+      <module fileurl="file://$PROJECT_DIR$/lab04_dynamicallyadddata/lab04_dynamicallyadddata.iml" filepath="$PROJECT_DIR$/lab04_dynamicallyadddata/lab04_dynamicallyadddata.iml" group="DinnerDecider/lab04_dynamicallyadddata" />
+      <module fileurl="file://$PROJECT_DIR$/lab04_login/lab04_login.iml" filepath="$PROJECT_DIR$/lab04_login/lab04_login.iml" group="DinnerDecider/lab04_login" />
+    </modules>
+  </component>
+</project>

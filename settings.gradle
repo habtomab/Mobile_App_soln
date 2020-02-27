@@ -1,2 +1,4 @@
 rootProject.name='DinnerDecider'
 include ':app'
+include ':lab04_dynamicallyadddata'
+include ':lab04_login'
