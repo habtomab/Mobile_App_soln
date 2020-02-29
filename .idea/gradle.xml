@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/lab04_dynamicallyadddata" />
             <option value="$PROJECT_DIR$/lab04_login" />
+            <option value="$PROJECT_DIR$/lab05_userlogin" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

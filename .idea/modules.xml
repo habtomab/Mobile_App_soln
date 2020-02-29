@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="DinnerDecider/app" />
       <module fileurl="file://$PROJECT_DIR$/lab04_dynamicallyadddata/lab04_dynamicallyadddata.iml" filepath="$PROJECT_DIR$/lab04_dynamicallyadddata/lab04_dynamicallyadddata.iml" group="DinnerDecider/lab04_dynamicallyadddata" />
       <module fileurl="file://$PROJECT_DIR$/lab04_login/lab04_login.iml" filepath="$PROJECT_DIR$/lab04_login/lab04_login.iml" group="DinnerDecider/lab04_login" />
+      <module fileurl="file://$PROJECT_DIR$/lab05_userlogin/lab05_userlogin.iml" filepath="$PROJECT_DIR$/lab05_userlogin/lab05_userlogin.iml" group="DinnerDecider/lab05_userlogin" />
     </modules>
   </component>
 </project>
