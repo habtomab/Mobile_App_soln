@@ -7,6 +7,8 @@
       <module fileurl="file://$PROJECT_DIR$/lab04_dynamicallyadddata/lab04_dynamicallyadddata.iml" filepath="$PROJECT_DIR$/lab04_dynamicallyadddata/lab04_dynamicallyadddata.iml" group="DinnerDecider/lab04_dynamicallyadddata" />
       <module fileurl="file://$PROJECT_DIR$/lab04_login/lab04_login.iml" filepath="$PROJECT_DIR$/lab04_login/lab04_login.iml" group="DinnerDecider/lab04_login" />
       <module fileurl="file://$PROJECT_DIR$/lab05_userlogin/lab05_userlogin.iml" filepath="$PROJECT_DIR$/lab05_userlogin/lab05_userlogin.iml" group="DinnerDecider/lab05_userlogin" />
+      <module fileurl="file://$PROJECT_DIR$/lab06_soln2/lab06_soln2.iml" filepath="$PROJECT_DIR$/lab06_soln2/lab06_soln2.iml" group="DinnerDecider/lab06_soln2" />
+      <module fileurl="file://$PROJECT_DIR$/quizapplication/quizapplication.iml" filepath="$PROJECT_DIR$/quizapplication/quizapplication.iml" group="DinnerDecider/quizapplication" />
     </modules>
   </component>
 </project>

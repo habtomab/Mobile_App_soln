@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/appTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Kotlin Quiz Questions"
+        android:accessibilityHeading="true"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/question1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Button is a subclass of TextView?"
+        android:textSize="28sp" />
+
+    <RadioGroup
+        android:id="@+id/rgQuestion1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbQuestion1Yes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Yes" />
+
+        <RadioButton
+            android:id="@+id/rbQuestion1No"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="No" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/question2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="What types of constructors are there in Kotlin?"
+        android:textSize="28sp" />
+
+    <CheckBox
+        android:id="@+id/Q2answer1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Primary" />
+
+    <CheckBox
+        android:id="@+id/Q2answer2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Secondary" />
+    <CheckBox
+        android:id="@+id/Q2answer3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/checkBox"
+        android:layout_alignParentBottom="true"
+        android:text="All of the above"
+        android:layout_alignRight="@+id/checkBox" />
+    <CheckBox
+        android:id="@+id/Q2answer4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/checkBox"
+        android:layout_alignParentBottom="true"
+        android:text="None of the Above"
+        android:layout_alignRight="@+id/checkBox" />
+    <LinearLayout
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onSubmit"
+            android:text="Submit" />
+        <Space
+            android:layout_width="25dp"
+            android:layout_height="match_parent"></Space>
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onReset"
+            android:text="Reset" />
+    </LinearLayout>
+
+</LinearLayout>
